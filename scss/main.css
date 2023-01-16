@@ -24,6 +24,9 @@ html {
 
 body {
   background-color: #0E0E0E;
+  background-image: url(../imgs/background.png);
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -40,6 +43,23 @@ a {
   .container {
     max-width: 124.8rem;
   }
+}
+
+.btn {
+  background-color: #FFFFFF;
+  padding: 1rem 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 23rem;
+}
+.btn span {
+  color: #0E0E0E;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
 }
 
 .card {
@@ -69,4 +89,21 @@ a {
   font-size: 20px;
   line-height: 24px;
   color: #FF5B50;
+}
+
+header {
+  margin-top: 5.7rem;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container nav ul {
+  display: flex;
+  gap: 60px;
+}
+header .container nav ul li a {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
 }/*# sourceMappingURL=main.css.map */

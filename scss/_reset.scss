@@ -23,7 +23,10 @@ html {
 }
 
 body {
-    background-color: $bg;
+    background-color: $black;
+    background-image: url(../imgs/background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 a {

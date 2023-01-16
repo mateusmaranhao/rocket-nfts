@@ -1,0 +1,21 @@
+header {
+    margin-top: 5.7rem;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        nav {
+            ul {
+                display: flex;
+                gap: 60px;
+                li {
+                    a {
+                        font-size: 1.8rem;
+                        line-height: 2.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
