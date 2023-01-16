@@ -1,0 +1,33 @@
+.card {
+    width: 100%;
+    max-width: 35rem;
+    height: 15rem;
+
+    background-color: $gray;
+
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    
+    .image {
+        padding-left: 3.2rem;
+    }
+
+    .artist-info {
+        display: flex;
+        flex-direction: column;
+
+        .name {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: $white;
+        }
+        .photos {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: $accent;
+        }
+    }
+}
