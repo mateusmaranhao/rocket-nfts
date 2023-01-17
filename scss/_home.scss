@@ -1,5 +1,5 @@
 .s-hero {
-    margin-top: 9rem;
+    margin-top: 6rem;
 
     .container {
         .grid {
@@ -38,6 +38,27 @@
                 line-height: 61px;
                 .accent {
                     color: $accent;
+                }
+            }
+        }
+    }
+}
+
+.s-gallery {
+    margin-top: 8rem;
+    .container {
+        .gallery-grid {
+            display: grid;
+            grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+            
+            
+            .image {
+                &:nth-child(n + 5) {
+                    margin-top: 2.4rem;            
+                }
+                img {
+                    border: 0.1rem solid $white;
+                
                 }
             }
         }
