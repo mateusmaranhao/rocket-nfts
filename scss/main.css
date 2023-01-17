@@ -106,4 +106,44 @@ header .container nav ul {
 header .container nav ul li a {
   font-size: 1.8rem;
   line-height: 2.2rem;
+}
+
+.s-hero {
+  margin-top: 9rem;
+}
+.s-hero .container .grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40.1rem 59.6rem 20rem;
+  justify-content: space-between;
+}
+.s-hero .container .grid .subgrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 5.5rem;
+}
+.s-hero .container .grid .subgrid p {
+  font-size: 18px;
+  line-height: 22px;
+}
+.s-hero .container .grid .subgrid .artist-group {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+.s-hero .container .grid .subgrid .artist-group .info {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+.s-hero .container .grid .subgrid .artist-group .info .number {
+  display: block;
+  font-weight: 700;
+}
+.s-hero .container .grid h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+}
+.s-hero .container .grid h1 .accent {
+  color: #FF5B50;
 }/*# sourceMappingURL=main.css.map */

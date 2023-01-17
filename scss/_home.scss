@@ -1,0 +1,45 @@
+.s-hero {
+    margin-top: 9rem;
+
+    .container {
+        .grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 40.1rem 59.6rem 20rem;
+            justify-content: space-between;
+            .subgrid {
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                gap: 5.5rem;
+
+                p {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                .artist-group {
+                    display: flex;
+                    align-items: flex-end;
+                    gap: 1rem;
+                    .info {
+                        font-size: 1.8rem;
+                        line-height: 2.2rem;
+                        .number {
+                            display: block;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+
+            h1 {
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 61px;
+                .accent {
+                    color: $accent;
+                }
+            }
+        }
+    }
+}
