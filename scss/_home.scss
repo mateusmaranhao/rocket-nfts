@@ -1,5 +1,5 @@
 .s-hero {
-    margin-top: 6rem;
+    margin-top: 8rem;
 
     .container {
         .grid {
@@ -7,6 +7,7 @@
             display: grid;
             grid-template-columns: 40.1rem 59.6rem 20rem;
             justify-content: space-between;
+            align-items: center;
             .subgrid {
                 display: grid;
                 grid-template-rows: 1fr 1fr;
@@ -45,7 +46,7 @@
 }
 
 .s-gallery {
-    margin-top: 8rem;
+    margin-top: 10rem;
     .container {
         .gallery-grid {
             display: grid;
@@ -61,6 +62,86 @@
                 
                 }
             }
+        }
+    }
+}
+
+.s-info {
+    margin-top: 1.8rem;
+    .container {
+        .infos {
+            display: flex;
+            align-items: center;
+            height: 600px;
+
+
+            .left {
+                height: 100%;
+                ul {
+                    width: 100%;
+                    max-width: 19.8rem;
+                    padding: 10rem 6rem 0 0;
+                    border-right: 1px solid $text;
+                    li {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+    
+                        &:not(:first-child) {
+                            margin-top: 7rem;
+                        }
+                        .value {
+                            font-weight: 600;
+                            font-size: 5rem;
+                            line-height: 6.1rem;
+                        }
+    
+                        .text {
+                            font-weight: 600;
+                            font-size: 2rem;
+                            line-height: 2.4rem;
+                            color: $text;
+                        }
+                    }
+                }    
+            }
+
+            .right {
+                display: flex;
+                flex-direction: column;
+                .texts {
+                    margin-top: 8rem;
+                    display: flex;
+                    gap: 12.6rem;
+                    margin-left: 7rem;
+
+                    p {
+                        font-size: 1.8rem;
+                        line-height: 2.2rem;
+                        max-width: 75rem;
+                        margin-bottom: 6.5rem;
+
+                    }
+
+                    .accent {
+                        color: $accent;
+                    }
+
+                    a {
+                        font-size: 1.8rem;
+                        line-height: 2.2rem;
+                        text-decoration-line: underline;
+                    }
+                }
+                .photo {
+                    margin-top: 7rem;
+                    img {
+                        width: 100%; 
+                    }
+                }
+            }
+            
         }
     }
 }

@@ -92,7 +92,7 @@ a {
 }
 
 header {
-  margin-top: 4rem;
+  margin-top: 5.7rem;
 }
 header .container {
   display: flex;
@@ -109,13 +109,14 @@ header .container nav ul li a {
 }
 
 .s-hero {
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 .s-hero .container .grid {
   width: 100%;
   display: grid;
   grid-template-columns: 40.1rem 59.6rem 20rem;
   justify-content: space-between;
+  align-items: center;
 }
 .s-hero .container .grid .subgrid {
   display: grid;
@@ -149,7 +150,7 @@ header .container nav ul li a {
 }
 
 .s-gallery {
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 .s-gallery .container .gallery-grid {
   display: grid;
@@ -160,4 +161,73 @@ header .container nav ul li a {
 }
 .s-gallery .container .gallery-grid .image img {
   border: 0.1rem solid #FFFFFF;
+}
+
+.s-info {
+  margin-top: 1.8rem;
+}
+.s-info .container .infos {
+  display: flex;
+  align-items: center;
+  height: 600px;
+}
+.s-info .container .infos .left {
+  height: 100%;
+}
+.s-info .container .infos .left ul {
+  width: 100%;
+  max-width: 19.8rem;
+  padding: 10rem 6rem 0 0;
+  border-right: 1px solid #5A5757;
+}
+.s-info .container .infos .left ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.s-info .container .infos .left ul li:not(:first-child) {
+  margin-top: 7rem;
+}
+.s-info .container .infos .left ul li .value {
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 6.1rem;
+}
+.s-info .container .infos .left ul li .text {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #5A5757;
+}
+.s-info .container .infos .right {
+  display: flex;
+  flex-direction: column;
+}
+.s-info .container .infos .right .texts {
+  margin-top: 8rem;
+  display: flex;
+  gap: 12.6rem;
+  margin-left: 7rem;
+}
+.s-info .container .infos .right .texts p {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  max-width: 75rem;
+  margin-bottom: 6.5rem;
+}
+.s-info .container .infos .right .texts .accent {
+  color: #FF5B50;
+}
+.s-info .container .infos .right .texts a {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.s-info .container .infos .right .photo {
+  margin-top: 7rem;
+}
+.s-info .container .infos .right .photo img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
