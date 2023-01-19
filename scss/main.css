@@ -165,6 +165,7 @@ header .container nav ul li a {
 
 .s-info {
   margin-top: 1.8rem;
+  border-bottom: 1px solid #5A5757;
 }
 .s-info .container .infos {
   display: flex;
@@ -226,8 +227,67 @@ header .container nav ul li a {
           text-decoration-line: underline;
 }
 .s-info .container .infos .right .photo {
-  margin-top: 7rem;
+  margin-top: 6.3rem;
 }
 .s-info .container .infos .right .photo img {
   width: 100%;
+}
+
+.s-popular {
+  margin-top: 15rem;
+}
+.s-popular .container h2 {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6.1rem;
+}
+.s-popular .container h2 .accent {
+  color: #FF5B50;
+}
+.s-popular .container .astronauts {
+  margin-top: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-popular .container .astronauts .group .astronaut {
+  width: 100%;
+  max-width: 35rem;
+}
+.s-popular .container .astronauts .group .astronaut:not(:first-child) {
+  margin-top: 6.3rem;
+}
+.s-popular .container .astronauts .group .astronaut .number {
+  display: flex;
+  justify-content: space-between;
+}
+.s-popular .container .astronauts .group .astronaut .number h3 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.7rem;
+}
+.s-popular .container .astronauts .group .astronaut .info {
+  margin-top: 4.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.s-popular .container .astronauts .group .astronaut .info .name {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #5A5757;
+}
+.s-popular .container .astronauts .group .astronaut .info .value {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #FF5B50;
+}
+.s-popular .container .astronauts .group .astronaut .image {
+  margin-top: 2.6rem;
+}
+.s-popular .container .astronauts .mid-border {
+  height: 72rem;
+  width: 0.1rem;
+  background-color: #5A5757;
 }/*# sourceMappingURL=main.css.map */

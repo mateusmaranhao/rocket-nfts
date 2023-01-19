@@ -68,6 +68,7 @@
 
 .s-info {
     margin-top: 1.8rem;
+    border-bottom: 1px solid $text;
     .container {
         .infos {
             display: flex;
@@ -135,13 +136,80 @@
                     }
                 }
                 .photo {
-                    margin-top: 7rem;
+                    margin-top: 6.3rem;
                     img {
                         width: 100%; 
                     }
                 }
             }
             
+        }
+    }
+}
+
+.s-popular {
+    margin-top: 15rem;
+    .container {
+        h2 {
+            font-weight: 700;
+            font-size: 5rem;
+            line-height: 6.1rem;
+
+            .accent {
+                color: $accent;
+            }
+        }
+
+        .astronauts {
+            margin-top: 17rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .group {
+                .astronaut {
+                    &:not(:first-child) {
+                        margin-top: 6.3rem;
+                    }
+
+                    width: 100%;
+                    max-width: 35rem;
+                    .number {
+                        display: flex;
+                        justify-content: space-between;
+                        h3 {
+                            font-weight: 500;
+                            font-size: 3rem;
+                            line-height: 3.7rem;
+                        }
+                    }
+                    .info {
+                        margin-top: 4.4rem;
+                        display: flex;
+                        justify-content: space-between;
+                        .name {
+                            font-weight: 600;
+                            font-size: 2rem;
+                            line-height: 2.4rem;
+                            color: $text;
+                        }
+                        .value {
+                            font-weight: 400;
+                            font-size: 2rem;
+                            line-height: 2.4rem;
+                            color: $accent;
+                        }
+                    }
+                    .image {
+                        margin-top: 2.6rem;
+                    }
+                }
+            }
+
+            .mid-border {
+                height: 72rem;
+                width: 0.1rem;
+                background-color: $text;
+            }
         }
     }
 }
