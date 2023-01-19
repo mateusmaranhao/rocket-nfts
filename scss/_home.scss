@@ -150,16 +150,6 @@
 .s-popular {
     margin-top: 15rem;
     .container {
-        h2 {
-            font-weight: 700;
-            font-size: 5rem;
-            line-height: 6.1rem;
-
-            .accent {
-                color: $accent;
-            }
-        }
-
         .astronauts {
             margin-top: 17rem;
             display: flex;
@@ -210,6 +200,33 @@
                 width: 0.1rem;
                 background-color: $text;
             }
+        }
+    }
+}
+
+.s-artists {
+    margin-top: 15.1rem;
+    .container {
+        .grid {
+            margin-top: 12rem;
+            display: grid;
+            grid-template: 1fr 1fr / 1fr 1fr 1fr;
+
+            .card {
+                &:nth-child(n + 4) {
+                    margin-top: 5.55rem;            
+                }
+            }
+        }
+        .more-artists {
+            margin-top: 6.3rem;
+
+            display: flex;
+            gap: 1.3rem;
+            justify-content: center;
+            
+            font-size: 2rem;
+            line-height: 2.4rem;
         }
     }
 }

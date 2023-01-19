@@ -91,6 +91,15 @@ a {
   color: #FF5B50;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6.1rem;
+}
+h2 .accent {
+  color: #FF5B50;
+}
+
 header {
   margin-top: 5.7rem;
 }
@@ -236,14 +245,6 @@ header .container nav ul li a {
 .s-popular {
   margin-top: 15rem;
 }
-.s-popular .container h2 {
-  font-weight: 700;
-  font-size: 5rem;
-  line-height: 6.1rem;
-}
-.s-popular .container h2 .accent {
-  color: #FF5B50;
-}
 .s-popular .container .astronauts {
   margin-top: 17rem;
   display: flex;
@@ -290,4 +291,24 @@ header .container nav ul li a {
   height: 72rem;
   width: 0.1rem;
   background-color: #5A5757;
+}
+
+.s-artists {
+  margin-top: 15.1rem;
+}
+.s-artists .container .grid {
+  margin-top: 12rem;
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr 1fr;
+}
+.s-artists .container .grid .card:nth-child(n+4) {
+  margin-top: 5.55rem;
+}
+.s-artists .container .more-artists {
+  margin-top: 6.3rem;
+  display: flex;
+  gap: 1.3rem;
+  justify-content: center;
+  font-size: 2rem;
+  line-height: 2.4rem;
 }/*# sourceMappingURL=main.css.map */
