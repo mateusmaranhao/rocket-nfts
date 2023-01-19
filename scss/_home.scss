@@ -216,6 +216,15 @@
                 &:nth-child(n + 4) {
                     margin-top: 5.55rem;            
                 }
+                &:nth-child(2) {
+                    background-color: $accent;
+
+                    .artist-info {
+                        .photos {
+                            color: $white;
+                        }
+                    }
+                }
             }
         }
         .more-artists {

@@ -304,6 +304,12 @@ header .container nav ul li a {
 .s-artists .container .grid .card:nth-child(n+4) {
   margin-top: 5.55rem;
 }
+.s-artists .container .grid .card:nth-child(2) {
+  background-color: #FF5B50;
+}
+.s-artists .container .grid .card:nth-child(2) .artist-info .photos {
+  color: #FFFFFF;
+}
 .s-artists .container .more-artists {
   margin-top: 6.3rem;
   display: flex;
