@@ -95,6 +95,7 @@ h2 {
   font-weight: 700;
   font-size: 5rem;
   line-height: 6.1rem;
+  text-align: center;
 }
 h2 .accent {
   color: #FF5B50;
@@ -236,7 +237,7 @@ header .container nav ul li a {
           text-decoration-line: underline;
 }
 .s-info .container .infos .right .photo {
-  margin-top: 6.3rem;
+  margin-top: 6.5rem;
 }
 .s-info .container .infos .right .photo img {
   width: 100%;
@@ -317,4 +318,104 @@ header .container nav ul li a {
   justify-content: center;
   font-size: 2rem;
   line-height: 2.4rem;
+}
+
+footer {
+  margin-top: 15.6rem;
+  background-color: #252525;
+  padding-top: 10.2rem;
+}
+footer .container .top-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container .top-info .back-to-top {
+  padding: 2.9rem;
+  background-color: #FF5B50;
+}
+footer .container .social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6.9rem 0 3.2rem;
+}
+footer .container .social-links .site {
+  color: #5A5757;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+footer .container .social-links .social-media {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+footer .mid-info {
+  border-top: 0.1rem solid #5A5757;
+  border-bottom: 0.1rem solid #5A5757;
+  margin-top: 6rem;
+}
+footer .mid-info .container {
+  display: flex;
+  align-items: center;
+  gap: 12.2rem;
+}
+footer .mid-info .container .newsletter {
+  padding: 6.7rem 6.2rem 5.3rem 0;
+  border-right: 1px solid #5A5757;
+}
+footer .mid-info .container .newsletter p {
+  width: 39.5rem;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.7rem;
+}
+footer .mid-info .container .newsletter p .accent {
+  color: #FF5B50;
+}
+footer .mid-info .container .newsletter #email {
+  width: 28rem;
+  outline: none;
+  border: none;
+  background-color: #0E0E0E;
+  padding: 2rem 0 2rem 2rem;
+}
+footer .mid-info .container .newsletter #email::-moz-placeholder {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+footer .mid-info .container .newsletter #email:-ms-input-placeholder {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+footer .mid-info .container .newsletter #email::placeholder {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+footer .mid-info .container .newsletter .footer-btn {
+  background-color: #FFFFFF;
+  color: #0E0E0E;
+  outline: none;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  padding: 1.5rem 2.2rem;
+}
+footer .mid-info .container .links {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .mid-info .container .links ul li:first-child a {
+  font-weight: 700;
+  color: #FFFFFF;
+}
+footer .mid-info .container .links ul li:not(:last-child) {
+  padding-bottom: 0.7rem;
+}
+footer .mid-info .container .links ul li a {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #5A5757;
 }/*# sourceMappingURL=main.css.map */

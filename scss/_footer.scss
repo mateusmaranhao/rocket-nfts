@@ -1,0 +1,115 @@
+footer {
+    margin-top: 15.6rem;
+    background-color: $gray;
+    padding-top: 10.2rem;
+    
+    .container {
+        .top-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .back-to-top {
+                padding: 2.9rem;
+                background-color: $accent;
+            }
+
+        }
+
+        .social-links {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 6.9rem 0 3.2rem;
+
+            .site {
+                color: $text;
+                font-size: 2rem;
+                line-height: 2.4rem;;
+            }
+
+            .social-media {
+                display: flex;
+                align-items: center;
+                gap: 6rem;
+            }
+        }
+    }
+
+    .mid-info {
+        border-top: 0.1rem solid $text;
+        border-bottom: 0.1rem solid $text;
+        margin-top: 6rem;
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 12.2rem;
+            .newsletter {
+                padding: 6.7rem 6.2rem 5.3rem 0;
+                border-right: 1px solid $text;
+                p {
+                    width: 39.5rem;
+                    font-weight: 500;
+                    font-size: 3rem;
+                    line-height: 3.7rem;
+
+                    .accent {
+                        color: $accent;
+                    }
+                }
+
+                #email {
+                    width: 28rem;
+                    outline: none;
+                    border: none;
+
+                    background-color: $black;
+                    padding: 2rem 0 2rem 2rem;
+                    &::placeholder {
+                        font-size: 2rem;
+                        line-height: 2.4rem;
+                    }
+                }
+                .footer-btn {
+                    background-color: $white;
+                    color: $black;
+
+                    outline: none;
+
+                    font-weight: 700;
+                    font-size: 2rem;
+                    line-height: 2.4rem;
+
+                    padding: 1.5rem 2.2rem;
+                }
+            }
+
+            .links {
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                ul {
+                    
+                    li {
+                        &:first-child {
+                            a {
+                                font-weight: 700;
+                                color: $white;
+                            }          
+                        }
+                        &:not(:last-child) {
+                            padding-bottom: 0.7rem;
+                        }
+                        a {
+                            font-size: 2rem;
+                            line-height: 2.4rem;
+                            color: $text;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
